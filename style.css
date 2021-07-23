@@ -1,0 +1,75 @@
+ body{
+ background-color: #ADD8E6;
+
+ }
+
+ #title, .subtitle, .post, .tabela{
+ font-style: italic;
+
+ }
+
+#title{
+text-decoration: underline;
+
+ }
+
+.subtitle{
+font-weight: bolder;
+font-style: sans-serif; 
+font-size: 20px;
+padding-top: 0;
+ }
+
+ .tabela{
+width: 100%;
+background-color:#4682B4;
+border-radius: 5px;
+padding-top: 5px;
+padding-bottom: 2px;
+padding-left: 3px;
+padding-right: 3px;
+margin-bottom: 15px;
+ }
+
+
+.post{
+width: 100%;
+background-color:#4682B4;
+border-radius: 5px;
+padding-top: 5px;
+padding-bottom: 2px;
+padding-left: 3px;
+padding-right: 3px;
+margin: 0;
+}
+
+.letra{
+color: black;
+font-style: italic;
+font-size: 20;
+font-tra
+}
+
+.fontes{
+font-weight: bolder;
+font-style: italic;
+font-size: 16px;
+}
+
+.imagem{
+width: 10%;
+border-radius: 10%;
+padding: 1%;
+}
+ 
+.button2 {
+ background-color:  #084461; 
+ color: #fff; 
+ border-radius: 7%;
+ border-color: #4682B4;
+}
+
+.button2:hover {
+  background-color: #084461;
+  color: white;
+}
