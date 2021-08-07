@@ -13,9 +13,11 @@
 //console.log(frase.replace("Um dia", "Eu"));
 //console.log(frase.toLowerCase());
 
-// ARRAY AULA 2
+
+/* ARRAY AULA 2
 
 var lista = ["banana", "uva", "maça", "melancia"];
+
 
 
 //push acrescenta
@@ -57,3 +59,50 @@ var fruta ={nome: "banana", cor: "amarela"}
 
 console.log(fruta);
 console.log(fruta.cor);
+
+*/
+
+
+//Aula 03
+
+/*
+var idade = prompt ("Qual é a sua idade?");
+
+if (idade>=18){
+
+alert("Maior de idade");
+
+} else {
+
+alert("Menor de idade");
+
+}
+
+
+
+var count = 0;
+
+while (count<=5){
+
+console.log(count);
+
+count++;
+
+}
+
+
+var count;
+
+for (count=0; count<=5; count++){
+
+console.log(count);
+
+}
+*/
+
+
+
+var d = new Date();
+
+alert(d);
+alert(d.getDay());
