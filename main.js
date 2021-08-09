@@ -1,20 +1,22 @@
 
+
+/*
 //AULA 1
-//alert("E ai, Js!!");
+alert("E ai, Js!!");
 
-//var nome = "julia pinheiro";
-//var idade = 22;
-//var cidade = "São Paulo"
-//var frase = "Um dia vou ser sênior!"
+var nome = "julia pinheiro";
+var idade = 22;
+var cidade = "São Paulo"
+var frase = "Um dia vou ser sênior!"
 
-//console.log(nome);
-//console.log(idade);
-//console.log(cidade);
-//console.log(frase.replace("Um dia", "Eu"));
-//console.log(frase.toLowerCase());
+console.log(nome);
+console.log(idade);
+console.log(cidade);
+console.log(frase.replace("Um dia", "Eu"));
+console.log(frase.toLowerCase());
 
 
-/* ARRAY AULA 2
+ ARRAY AULA 2
 
 var lista = ["banana", "uva", "maça", "melancia"];
 
@@ -60,12 +62,11 @@ var fruta ={nome: "banana", cor: "amarela"}
 console.log(fruta);
 console.log(fruta.cor);
 
-*/
 
 
 //Aula 03
 
-/*
+
 var idade = prompt ("Qual é a sua idade?");
 
 if (idade>=18){
@@ -98,7 +99,6 @@ for (count=0; count<=5; count++){
 console.log(count);
 
 }
-*/
 
 
 
@@ -106,3 +106,55 @@ var d = new Date();
 
 alert(d);
 alert(d.getDay());
+
+
+for(count=0; count <= 5; count++){
+
+console.log(count);
+
+}
+
+
+// AULA 04
+
+
+
+
+
+function setReplace(frase, nome, novo_nome){
+
+return frase.replace(nome, novo_nome)
+
+}
+
+alert( setReplace( "Um dia serei sêmior", "Um dia", "Eu"));
+
+
+
+function soma (n1,n2){
+
+return n1+n2;
+
+}
+*/
+
+function validaidade (idade){
+
+var validar;
+
+if(idade>=18){
+
+validar = true;
+
+return("Maior de idade")
+}else{
+
+validar = false;
+
+return("menor de idade")
+}
+
+}
+
+var idade = prompt ("Qual é a sua idade?");
+console.log(validaidade(idade));
